@@ -32,7 +32,7 @@ Promissum really shines when used to combine asynchronous operations from differ
   s.subspec "Alamofire" do |ss|
     ss.source_files = "extensions/PromissumExtensions/Alamofire+Promise.swift"
     ss.dependency "Promissum/Core"
-    ss.dependency "Alamofire", "~> 3.0"
+    ss.dependency "Alamofire", "~> 4.0"
   end
 
   s.subspec "CoreDataKit" do |ss|
